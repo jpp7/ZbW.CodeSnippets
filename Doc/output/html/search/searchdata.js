@@ -1,10 +1,10 @@
 var indexSectionsWithContent =
 {
-  0: ".fmnpsxy",
+  0: ".fmnpsxyz",
   1: "p",
-  2: "fs",
-  3: ".fps",
-  4: "fm",
+  2: "fsy",
+  3: ".fpsy",
+  4: "fmz",
   5: "nxy"
 };
 

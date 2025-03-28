@@ -5,5 +5,8 @@ var annotated_dup =
     ] ],
     [ "StackVsHeap", "namespace_stack_vs_heap.html", [
       [ "Program", "class_stack_vs_heap_1_1_program.html", "class_stack_vs_heap_1_1_program" ]
+    ] ],
+    [ "Yield", "namespace_yield.html", [
+      [ "Program", "class_yield_1_1_program.html", "class_yield_1_1_program" ]
     ] ]
 ];

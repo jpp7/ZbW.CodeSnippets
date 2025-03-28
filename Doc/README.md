@@ -39,6 +39,17 @@ docker build -t snippet-docs .
 Starte den erstellten Container mit `docker run`:
 
 ```bash
+docker stop docs-server
+docker rm docs-server
+```
+*Code: Container entfernen*
+
+```bash
 docker run -d -p 8081:80 --name docs-server snippet-docs
 ```
 *Code: Container starten*
+
+## 🌐 Zugriff auf die Dokumentation
+
+Zugreife auf die Dokumentation über den Browser:
+[Documentation](http://localhost:8081)

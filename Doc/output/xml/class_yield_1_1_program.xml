@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_yield_1_1_program" kind="class" language="C#" prot="public" sealed="yes">
+    <compoundname>Yield::Program</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_yield_1_1_program_1a684bc8ac8af081bc4bcee80373983399" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Yield.Program.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <qualifiedname>Yield.Program.Main</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Serves as the entry point of the program, responsible for executing the main logic of the application. Demonstrates the usage of a lazily evaluated sequence of numbers generated using the ZahlenBis method. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Pokora/ZbW/ZbW.CodeSnippets/Source/Yield/Program.cs" line="9" column="28" bodyfile="D:/Pokora/ZbW/ZbW.CodeSnippets/Source/Yield/Program.cs" bodystart="9" bodyend="17"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_yield_1_1_program_1a9bb048c2ac97872d0c19b2881a11e198" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; int &gt;</type>
+        <definition>static IEnumerable&lt; int &gt; Yield.Program.ZahlenBis</definition>
+        <argsstring>(int max)</argsstring>
+        <name>ZahlenBis</name>
+        <qualifiedname>Yield.Program.ZahlenBis</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a sequence of numbers from 1 to the specified maximum value using lazy evaluation with yield. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>max</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The maximum value up to which numbers will be yielded.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+&lt;return&gt;An enumerable sequence of integers starting from 1 up to the specified maximum value.&lt;/return&gt; </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Pokora/ZbW/ZbW.CodeSnippets/Source/Yield/Program.cs" line="23" column="36" bodyfile="D:/Pokora/ZbW/ZbW.CodeSnippets/Source/Yield/Program.cs" bodystart="23" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Defines the <ref refid="class_yield_1_1_program" kindref="compound">Program</ref> class, which contains the entry point and methods demonstrating lazy evaluation using the yield keyword to generate a sequence of numbers. </para>
+    </detaileddescription>
+    <location file="D:/Pokora/ZbW/ZbW.CodeSnippets/Source/Yield/Program.cs" line="5" column="11" bodyfile="D:/Pokora/ZbW/ZbW.CodeSnippets/Source/Yield/Program.cs" bodystart="6" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_yield_1_1_program_1a684bc8ac8af081bc4bcee80373983399" prot="public" virt="non-virtual"><scope>Yield::Program</scope><name>Main</name></member>
+      <member refid="class_yield_1_1_program_1a9bb048c2ac97872d0c19b2881a11e198" prot="private" virt="non-virtual"><scope>Yield::Program</scope><name>ZahlenBis</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

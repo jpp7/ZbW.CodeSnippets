@@ -15,6 +15,10 @@
   <compound refid="class_stack_vs_heap_1_1_program" kind="class"><name>StackVsHeap::Program</name>
     <member refid="class_stack_vs_heap_1_1_program_1af3c76b70915c3cc813f5f2eacde3443b" kind="function"><name>Main</name></member>
   </compound>
+  <compound refid="class_yield_1_1_program" kind="class"><name>Yield::Program</name>
+    <member refid="class_yield_1_1_program_1a684bc8ac8af081bc4bcee80373983399" kind="function"><name>Main</name></member>
+    <member refid="class_yield_1_1_program_1a9bb048c2ac97872d0c19b2881a11e198" kind="function"><name>ZahlenBis</name></member>
+  </compound>
   <compound refid="namespace_fibonacci_examples" kind="namespace"><name>FibonacciExamples</name>
   </compound>
   <compound refid="namespaceglobal_1_1_system" kind="namespace"><name>global::System</name>
@@ -37,9 +41,13 @@
   </compound>
   <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
   </compound>
+  <compound refid="namespace_yield" kind="namespace"><name>Yield</name>
+  </compound>
   <compound refid="_fibonacci_examples_2obj_2_debug_2net9_80_2_8_n_e_t_core_app_00_version_0av9_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v9.0.AssemblyAttributes.cs</name>
   </compound>
   <compound refid="_stack_vs_heap_2obj_2_debug_2net9_80_2_8_n_e_t_core_app_00_version_0av9_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v9.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_yield_2obj_2_debug_2net9_80_2_8_n_e_t_core_app_00_version_0av9_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v9.0.AssemblyAttributes.cs</name>
   </compound>
   <compound refid="_fibonacci_examples_8_assembly_info_8cs" kind="file"><name>FibonacciExamples.AssemblyInfo.cs</name>
   </compound>
@@ -49,13 +57,21 @@
   </compound>
   <compound refid="_stack_vs_heap_2_program_8cs" kind="file"><name>Program.cs</name>
   </compound>
+  <compound refid="_yield_2_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
   <compound refid="_stack_vs_heap_8_assembly_info_8cs" kind="file"><name>StackVsHeap.AssemblyInfo.cs</name>
   </compound>
   <compound refid="_stack_vs_heap_8_global_usings_8g_8cs" kind="file"><name>StackVsHeap.GlobalUsings.g.cs</name>
   </compound>
+  <compound refid="_yield_8_assembly_info_8cs" kind="file"><name>Yield.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_yield_8_global_usings_8g_8cs" kind="file"><name>Yield.GlobalUsings.g.cs</name>
+  </compound>
   <compound refid="dir_d398ad61651315c513194513c9eb5d65" kind="dir"><name>D:/Pokora/ZbW/ZbW.CodeSnippets/Source/FibonacciExamples/obj/Debug</name>
   </compound>
   <compound refid="dir_6a03b438f4e127189163872422080d8e" kind="dir"><name>D:/Pokora/ZbW/ZbW.CodeSnippets/Source/StackVsHeap/obj/Debug</name>
+  </compound>
+  <compound refid="dir_89d6ca9823553038fc9ca3dab0649003" kind="dir"><name>D:/Pokora/ZbW/ZbW.CodeSnippets/Source/Yield/obj/Debug</name>
   </compound>
   <compound refid="dir_3c3719dfe66e2cffab6a2e90aa8fb852" kind="dir"><name>D:/Pokora/ZbW/ZbW.CodeSnippets/Source/FibonacciExamples</name>
   </compound>
@@ -63,12 +79,18 @@
   </compound>
   <compound refid="dir_4a0e71cabedb66797ed52c753581de62" kind="dir"><name>D:/Pokora/ZbW/ZbW.CodeSnippets/Source/StackVsHeap/obj/Debug/net9.0</name>
   </compound>
+  <compound refid="dir_fae3cad7b43840c5c226450f3e9caa91" kind="dir"><name>D:/Pokora/ZbW/ZbW.CodeSnippets/Source/Yield/obj/Debug/net9.0</name>
+  </compound>
   <compound refid="dir_ef9aae0c84aeccf28d34b3af5d49cfd3" kind="dir"><name>D:/Pokora/ZbW/ZbW.CodeSnippets/Source/FibonacciExamples/obj</name>
   </compound>
   <compound refid="dir_4e806aca937e46f1b271d57ff30b3858" kind="dir"><name>D:/Pokora/ZbW/ZbW.CodeSnippets/Source/StackVsHeap/obj</name>
   </compound>
+  <compound refid="dir_d804d7ea91638bbdbb7bf312b5a2f6b5" kind="dir"><name>D:/Pokora/ZbW/ZbW.CodeSnippets/Source/Yield/obj</name>
+  </compound>
   <compound refid="dir_74389ed8173ad57b461b9d623a1f3867" kind="dir"><name>D:/Pokora/ZbW/ZbW.CodeSnippets/Source</name>
   </compound>
   <compound refid="dir_be3112be03c2f320f1fbd5f1341adbbd" kind="dir"><name>D:/Pokora/ZbW/ZbW.CodeSnippets/Source/StackVsHeap</name>
+  </compound>
+  <compound refid="dir_eb59082821392b2e7ca17547778bc678" kind="dir"><name>D:/Pokora/ZbW/ZbW.CodeSnippets/Source/Yield</name>
   </compound>
 </doxygenindex>
