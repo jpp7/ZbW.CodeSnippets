@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snippet.StackVsHeap", "Snippet.StackVsHeap\Snippet.StackVsHeap.csproj", "{5DCF829F-84D0-4FB3-8A80-D5CD0958278B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciExamples", "FibonacciExamples\FibonacciExamples.csproj", "{4ED8FF2D-F722-41A0-8118-4E09AA9CF696}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackVsHeap", "StackVsHeap\StackVsHeap.csproj", "{1E9124DA-CEED-4DBC-9BB9-5DFD23470F7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +10,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5DCF829F-84D0-4FB3-8A80-D5CD0958278B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5DCF829F-84D0-4FB3-8A80-D5CD0958278B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5DCF829F-84D0-4FB3-8A80-D5CD0958278B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5DCF829F-84D0-4FB3-8A80-D5CD0958278B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ED8FF2D-F722-41A0-8118-4E09AA9CF696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED8FF2D-F722-41A0-8118-4E09AA9CF696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED8FF2D-F722-41A0-8118-4E09AA9CF696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED8FF2D-F722-41A0-8118-4E09AA9CF696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E9124DA-CEED-4DBC-9BB9-5DFD23470F7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E9124DA-CEED-4DBC-9BB9-5DFD23470F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E9124DA-CEED-4DBC-9BB9-5DFD23470F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E9124DA-CEED-4DBC-9BB9-5DFD23470F7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
