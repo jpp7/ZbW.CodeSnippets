@@ -1,0 +1,76 @@
+## Build-Ergebnisse
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+out/
+
+## Rider / JetBrains
+.idea/
+*.sln.iml
+
+## Visual Studio-Dateien
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET
+wwwroot/node_modules/
+node_modules/
+bower_components/
+*.db
+*.sqlite
+*.log
+
+## Test-Ergebnisse
+TestResults/
+*.coverage
+*.coveragexml
+*.trx
+*.testlog
+
+## Paketverwaltung
+*.nupkg
+*.snupkg
+packages/
+*.lock.json
+*.deps.json
+*.runtimeconfig.json
+
+## Code Coverage Tools
+coverage/
+*.lcov
+*.nyc_output/
+
+## ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+## Sonstige
+*.tmp
+*.bak
+*.log
+*.orig
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Secrets, falls verwendet
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
