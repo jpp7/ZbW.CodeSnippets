@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_4a0e71cabedb66797ed52c753581de62" kind="dir">
+    <compoundname>D:/Pokora/ZbW/ZbW.CodeSnippets/Source/StackVsHeap/obj/Debug/net9.0</compoundname>
+    <innerfile refid="_stack_vs_heap_2obj_2_debug_2net9_80_2_8_n_e_t_core_app_00_version_0av9_80_8_assembly_attributes_8cs">.NETCoreApp,Version=v9.0.AssemblyAttributes.cs</innerfile>
+    <innerfile refid="_stack_vs_heap_8_assembly_info_8cs">StackVsHeap.AssemblyInfo.cs</innerfile>
+    <innerfile refid="_stack_vs_heap_8_global_usings_8g_8cs">StackVsHeap.GlobalUsings.g.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Pokora/ZbW/ZbW.CodeSnippets/Source/StackVsHeap/obj/Debug/net9.0/"/>
+  </compounddef>
+</doxygen>

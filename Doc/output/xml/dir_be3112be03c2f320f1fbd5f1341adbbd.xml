@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="dir_be3112be03c2f320f1fbd5f1341adbbd" kind="dir">
+    <compoundname>D:/Pokora/ZbW/ZbW.CodeSnippets/Source/StackVsHeap</compoundname>
+    <innerdir refid="dir_4e806aca937e46f1b271d57ff30b3858">D:/Pokora/ZbW/ZbW.CodeSnippets/Source/StackVsHeap/obj</innerdir>
+    <innerfile refid="_stack_vs_heap_2_program_8cs">Program.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Pokora/ZbW/ZbW.CodeSnippets/Source/StackVsHeap/"/>
+  </compounddef>
+</doxygen>

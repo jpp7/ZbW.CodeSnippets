@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_stack_vs_heap_1_1_program_1_1_person" kind="class" language="C#" prot="public">
+    <compoundname>StackVsHeap::Program::Person</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_stack_vs_heap_1_1_program_1_1_person_1a65d93fdec0085bf6eb77e82309097621" prot="public" static="no" mutable="no">
+        <type>string?</type>
+        <definition>string? StackVsHeap.Program.Person.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <qualifiedname>StackVsHeap.Program.Person.Name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Pokora/ZbW/ZbW.CodeSnippets/Source/StackVsHeap/Program.cs" line="48" column="27" bodyfile="D:/Pokora/ZbW/ZbW.CodeSnippets/Source/StackVsHeap/Program.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents a person with a name. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This is a reference type, meaning objects of this class are stored in the heap. </para>
+    </detaileddescription>
+    <location file="D:/Pokora/ZbW/ZbW.CodeSnippets/Source/StackVsHeap/Program.cs" line="46" column="15" bodyfile="D:/Pokora/ZbW/ZbW.CodeSnippets/Source/StackVsHeap/Program.cs" bodystart="47" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_stack_vs_heap_1_1_program_1_1_person_1a65d93fdec0085bf6eb77e82309097621" prot="public" virt="non-virtual"><scope>StackVsHeap::Program::Person</scope><name>Name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

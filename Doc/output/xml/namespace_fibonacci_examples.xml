@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="namespace_fibonacci_examples" kind="namespace" language="C#">
+    <compoundname>FibonacciExamples</compoundname>
+    <innerclass refid="class_fibonacci_examples_1_1_program" prot="public">FibonacciExamples::Program</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Pokora/ZbW/ZbW.CodeSnippets/Source/FibonacciExamples/Program.cs" line="1" column="1"/>
+  </compounddef>
+</doxygen>

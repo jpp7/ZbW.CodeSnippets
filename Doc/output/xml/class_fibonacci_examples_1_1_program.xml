@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="class_fibonacci_examples_1_1_program" kind="class" language="C#" prot="public" sealed="yes">
+    <compoundname>FibonacciExamples::Program</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_fibonacci_examples_1_1_program_1a91b19ea7bd0ec850b9026143153e8ebb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void FibonacciExamples.Program.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <qualifiedname>FibonacciExamples.Program.Main</qualifiedname>
+        <briefdescription>
+<para>The entry point of the application, responsible for executing the main logic of the program. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This method is executed as the starting point of the application. It computes and displays Fibonacci numbers using both iterative and recursive approaches. The method is static and does not return a value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Pokora/ZbW/ZbW.CodeSnippets/Source/FibonacciExamples/Program.cs" line="21" column="28" bodyfile="D:/Pokora/ZbW/ZbW.CodeSnippets/Source/FibonacciExamples/Program.cs" bodystart="21" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_fibonacci_examples_1_1_program_1aed59a41d171e198e0607f6408c9e8140" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int FibonacciExamples.Program.FibonacciIterativ</definition>
+        <argsstring>(int n)</argsstring>
+        <name>FibonacciIterativ</name>
+        <qualifiedname>FibonacciExamples.Program.FibonacciIterativ</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Calculates the nth Fibonacci number using an iterative approach. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>n</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The position of the Fibonacci sequence to compute. Must be a non-negative integer.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The nth Fibonacci number.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Pokora/ZbW/ZbW.CodeSnippets/Source/FibonacciExamples/Program.cs" line="34" column="28" bodyfile="D:/Pokora/ZbW/ZbW.CodeSnippets/Source/FibonacciExamples/Program.cs" bodystart="34" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fibonacci_examples_1_1_program_1a19754ce0a2456681544724ad9a486326" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int FibonacciExamples.Program.FibonacciRekursiv</definition>
+        <argsstring>(int n)</argsstring>
+        <name>FibonacciRekursiv</name>
+        <qualifiedname>FibonacciExamples.Program.FibonacciRekursiv</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Calculates the nth Fibonacci number using a recursive approach. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>n</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The position of the Fibonacci sequence to compute. Must be a non-negative integer.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The nth Fibonacci number.</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Pokora/ZbW/ZbW.CodeSnippets/Source/FibonacciExamples/Program.cs" line="55" column="28" bodyfile="D:/Pokora/ZbW/ZbW.CodeSnippets/Source/FibonacciExamples/Program.cs" bodystart="55" bodyend="61"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_fibonacci_examples_1_1_program" kindref="compound">Program</ref> class serves as the entry point of the application and encapsulates the logic for managing and executing functionality related to the <ref refid="namespace_fibonacci_examples" kindref="compound">FibonacciExamples</ref> namespace. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This class is sealed, meaning it cannot be inherited, preventing further extension or modification of its behavior through inheritance. </para>
+    </detaileddescription>
+    <location file="D:/Pokora/ZbW/ZbW.CodeSnippets/Source/FibonacciExamples/Program.cs" line="11" column="11" bodyfile="D:/Pokora/ZbW/ZbW.CodeSnippets/Source/FibonacciExamples/Program.cs" bodystart="12" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_fibonacci_examples_1_1_program_1aed59a41d171e198e0607f6408c9e8140" prot="private" virt="non-virtual"><scope>FibonacciExamples::Program</scope><name>FibonacciIterativ</name></member>
+      <member refid="class_fibonacci_examples_1_1_program_1a19754ce0a2456681544724ad9a486326" prot="private" virt="non-virtual"><scope>FibonacciExamples::Program</scope><name>FibonacciRekursiv</name></member>
+      <member refid="class_fibonacci_examples_1_1_program_1a91b19ea7bd0ec850b9026143153e8ebb" prot="public" virt="non-virtual"><scope>FibonacciExamples::Program</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

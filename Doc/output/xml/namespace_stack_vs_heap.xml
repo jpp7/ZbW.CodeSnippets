@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="namespace_stack_vs_heap" kind="namespace" language="C#">
+    <compoundname>StackVsHeap</compoundname>
+    <innerclass refid="class_stack_vs_heap_1_1_program" prot="public">StackVsHeap::Program</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Pokora/ZbW/ZbW.CodeSnippets/Source/StackVsHeap/Program.cs" line="1" column="1"/>
+  </compounddef>
+</doxygen>

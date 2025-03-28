@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.13.2" xml:lang="en-US">
+  <compounddef id="struct_stack_vs_heap_1_1_program_1_1_point" kind="struct" language="C#" prot="public">
+    <compoundname>StackVsHeap::Program::Point</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_stack_vs_heap_1_1_program_1_1_point_1a00de1eb92d6e4dcc4618ccdf07eebc12" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int StackVsHeap.Program.Point.X</definition>
+        <argsstring></argsstring>
+        <name>X</name>
+        <qualifiedname>StackVsHeap.Program.Point.X</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Pokora/ZbW/ZbW.CodeSnippets/Source/StackVsHeap/Program.cs" line="61" column="24" bodyfile="D:/Pokora/ZbW/ZbW.CodeSnippets/Source/StackVsHeap/Program.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_stack_vs_heap_1_1_program_1_1_point_1a785bd073e090e6b17403365fc412a70c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int StackVsHeap.Program.Point.Y</definition>
+        <argsstring></argsstring>
+        <name>Y</name>
+        <qualifiedname>StackVsHeap.Program.Point.Y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Pokora/ZbW/ZbW.CodeSnippets/Source/StackVsHeap/Program.cs" line="62" column="24" bodyfile="D:/Pokora/ZbW/ZbW.CodeSnippets/Source/StackVsHeap/Program.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents a 2D point with X and Y coordinates. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This is a value type, meaning instances of this struct are typically stored on the stack when used locally. It is designed to provide simple data storage for representing planar coordinates without requiring heap allocation. </para>
+    </detaileddescription>
+    <location file="D:/Pokora/ZbW/ZbW.CodeSnippets/Source/StackVsHeap/Program.cs" line="59" column="15" bodyfile="D:/Pokora/ZbW/ZbW.CodeSnippets/Source/StackVsHeap/Program.cs" bodystart="60" bodyend="63"/>
+    <listofallmembers>
+      <member refid="struct_stack_vs_heap_1_1_program_1_1_point_1a00de1eb92d6e4dcc4618ccdf07eebc12" prot="public" virt="non-virtual"><scope>StackVsHeap::Program::Point</scope><name>X</name></member>
+      <member refid="struct_stack_vs_heap_1_1_program_1_1_point_1a785bd073e090e6b17403365fc412a70c" prot="public" virt="non-virtual"><scope>StackVsHeap::Program::Point</scope><name>Y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

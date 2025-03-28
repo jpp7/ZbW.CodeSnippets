@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.13.2" xml:lang="en-US">
+  <compound refid="class_stack_vs_heap_1_1_program_1_1_person" kind="class"><name>StackVsHeap::Program::Person</name>
+    <member refid="class_stack_vs_heap_1_1_program_1_1_person_1a65d93fdec0085bf6eb77e82309097621" kind="variable"><name>Name</name></member>
+  </compound>
+  <compound refid="struct_stack_vs_heap_1_1_program_1_1_point" kind="struct"><name>StackVsHeap::Program::Point</name>
+    <member refid="struct_stack_vs_heap_1_1_program_1_1_point_1a00de1eb92d6e4dcc4618ccdf07eebc12" kind="variable"><name>X</name></member>
+    <member refid="struct_stack_vs_heap_1_1_program_1_1_point_1a785bd073e090e6b17403365fc412a70c" kind="variable"><name>Y</name></member>
+  </compound>
+  <compound refid="class_fibonacci_examples_1_1_program" kind="class"><name>FibonacciExamples::Program</name>
+    <member refid="class_fibonacci_examples_1_1_program_1a91b19ea7bd0ec850b9026143153e8ebb" kind="function"><name>Main</name></member>
+    <member refid="class_fibonacci_examples_1_1_program_1aed59a41d171e198e0607f6408c9e8140" kind="function"><name>FibonacciIterativ</name></member>
+    <member refid="class_fibonacci_examples_1_1_program_1a19754ce0a2456681544724ad9a486326" kind="function"><name>FibonacciRekursiv</name></member>
+  </compound>
+  <compound refid="class_stack_vs_heap_1_1_program" kind="class"><name>StackVsHeap::Program</name>
+    <member refid="class_stack_vs_heap_1_1_program_1af3c76b70915c3cc813f5f2eacde3443b" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="namespace_fibonacci_examples" kind="namespace"><name>FibonacciExamples</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system" kind="namespace"><name>global::System</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_collections_1_1_generic" kind="namespace"><name>global::System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_i_o" kind="namespace"><name>global::System::IO</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_linq" kind="namespace"><name>global::System::Linq</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_net_1_1_http" kind="namespace"><name>global::System::Net::Http</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_threading" kind="namespace"><name>global::System::Threading</name>
+  </compound>
+  <compound refid="namespaceglobal_1_1_system_1_1_threading_1_1_tasks" kind="namespace"><name>global::System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_stack_vs_heap" kind="namespace"><name>StackVsHeap</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="_fibonacci_examples_2obj_2_debug_2net9_80_2_8_n_e_t_core_app_00_version_0av9_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v9.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_stack_vs_heap_2obj_2_debug_2net9_80_2_8_n_e_t_core_app_00_version_0av9_80_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v9.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_fibonacci_examples_8_assembly_info_8cs" kind="file"><name>FibonacciExamples.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_fibonacci_examples_8_global_usings_8g_8cs" kind="file"><name>FibonacciExamples.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="_fibonacci_examples_2_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_stack_vs_heap_2_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_stack_vs_heap_8_assembly_info_8cs" kind="file"><name>StackVsHeap.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_stack_vs_heap_8_global_usings_8g_8cs" kind="file"><name>StackVsHeap.GlobalUsings.g.cs</name>
+  </compound>
+  <compound refid="dir_d398ad61651315c513194513c9eb5d65" kind="dir"><name>D:/Pokora/ZbW/ZbW.CodeSnippets/Source/FibonacciExamples/obj/Debug</name>
+  </compound>
+  <compound refid="dir_6a03b438f4e127189163872422080d8e" kind="dir"><name>D:/Pokora/ZbW/ZbW.CodeSnippets/Source/StackVsHeap/obj/Debug</name>
+  </compound>
+  <compound refid="dir_3c3719dfe66e2cffab6a2e90aa8fb852" kind="dir"><name>D:/Pokora/ZbW/ZbW.CodeSnippets/Source/FibonacciExamples</name>
+  </compound>
+  <compound refid="dir_fc67509661b2ed924e29f788d42ccde6" kind="dir"><name>D:/Pokora/ZbW/ZbW.CodeSnippets/Source/FibonacciExamples/obj/Debug/net9.0</name>
+  </compound>
+  <compound refid="dir_4a0e71cabedb66797ed52c753581de62" kind="dir"><name>D:/Pokora/ZbW/ZbW.CodeSnippets/Source/StackVsHeap/obj/Debug/net9.0</name>
+  </compound>
+  <compound refid="dir_ef9aae0c84aeccf28d34b3af5d49cfd3" kind="dir"><name>D:/Pokora/ZbW/ZbW.CodeSnippets/Source/FibonacciExamples/obj</name>
+  </compound>
+  <compound refid="dir_4e806aca937e46f1b271d57ff30b3858" kind="dir"><name>D:/Pokora/ZbW/ZbW.CodeSnippets/Source/StackVsHeap/obj</name>
+  </compound>
+  <compound refid="dir_74389ed8173ad57b461b9d623a1f3867" kind="dir"><name>D:/Pokora/ZbW/ZbW.CodeSnippets/Source</name>
+  </compound>
+  <compound refid="dir_be3112be03c2f320f1fbd5f1341adbbd" kind="dir"><name>D:/Pokora/ZbW/ZbW.CodeSnippets/Source/StackVsHeap</name>
+  </compound>
+</doxygenindex>
