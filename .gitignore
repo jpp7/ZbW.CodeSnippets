@@ -4,6 +4,7 @@ obj/
 [Bb]uild/
 [Ll]og/
 out/
+output/
 
 ## Rider / JetBrains
 .idea/
