@@ -19,6 +19,3 @@ FULL_SIDEBAR           = NO
 
 GENERATE_XML           = YES
 XML_OUTPUT             = xml
-
-EXCLUDE_PATTERNS       = \
-                         */ImageTestDataService.cs
