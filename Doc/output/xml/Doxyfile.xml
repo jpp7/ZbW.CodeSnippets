@@ -186,13 +186,11 @@
   <option  id='HTML_HEADER' default='yes' type='string'><value><![CDATA[]]></value></option>
   <option  id='HTML_FOOTER' default='yes' type='string'><value><![CDATA[]]></value></option>
   <option  id='HTML_STYLESHEET' default='yes' type='string'><value><![CDATA[]]></value></option>
-  <option  id='HTML_EXTRA_STYLESHEET' default='no' type='stringlist'>
-    <value><![CDATA[doxygen-awesome-css/doxygen-awesome.css]]></value>
-    <value><![CDATA[doxygen-awesome-css/doxygen-awesome-sidebar-only.css]]></value>
+  <option  id='HTML_EXTRA_STYLESHEET' default='yes' type='stringlist'>
   </option>
   <option  id='HTML_EXTRA_FILES' default='yes' type='stringlist'>
   </option>
-  <option  id='HTML_COLORSTYLE' default='no' type='string'><value>LIGHT</value></option>
+  <option  id='HTML_COLORSTYLE' default='yes' type='string'><value>AUTO_LIGHT</value></option>
   <option  id='HTML_COLORSTYLE_HUE' default='yes' type='int'><value>220</value></option>
   <option  id='HTML_COLORSTYLE_SAT' default='yes' type='int'><value>100</value></option>
   <option  id='HTML_COLORSTYLE_GAMMA' default='yes' type='int'><value>80</value></option>
