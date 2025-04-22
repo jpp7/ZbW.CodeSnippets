@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackVsHeap", "StackVsHeap\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yield", "Yield\Yield.csproj", "{EE883048-8C61-43D8-93A8-763759561196}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\LinkedList.csproj", "{511C1598-8970-42D8-B5B1-45FBCA768B81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{EE883048-8C61-43D8-93A8-763759561196}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE883048-8C61-43D8-93A8-763759561196}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE883048-8C61-43D8-93A8-763759561196}.Release|Any CPU.Build.0 = Release|Any CPU
+		{511C1598-8970-42D8-B5B1-45FBCA768B81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{511C1598-8970-42D8-B5B1-45FBCA768B81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{511C1598-8970-42D8-B5B1-45FBCA768B81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{511C1598-8970-42D8-B5B1-45FBCA768B81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
