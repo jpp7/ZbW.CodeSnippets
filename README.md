@@ -11,6 +11,8 @@ Eine Sammlung von kleinen, übersichtlichen C#-Beispielen zu verschiedenen Theme
 | `Algorithums`                  | Algorithums Beispiel                           |
 | `FibonacciExamples`            | Fibonacci Beispiel                             |
 | `LinkedList`                   | LinkedList Beispiel                            |
+| `SimpleHashTable`              | SimpleHashTable Beispiel                       |
+| `SimpleQueue`                  | SimpleQueue Beispiel                           |
 | `StackVsHeap`                  | Stack vs. Heap – Speicherverwaltung verstehen  |
 | `Yield`                        | Iteratoren mit `yield`                         |
 |                                |                                                |
