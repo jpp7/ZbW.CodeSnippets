@@ -1,7 +1,16 @@
 ﻿namespace LinkedList
 {
+    /// <summary>
+    /// The Program class serves as the entry point of the application.
+    /// It demonstrates the functionality of a custom linked list implementation by performing operations
+    /// such as adding elements, iterating through them, and printing their values in various ways.
+    /// </summary>
     public sealed class Program
     {
+        /// <summary>
+        /// Entry point of the application. Initializes and demonstrates the usage of a custom linked list
+        /// implementation by adding, iterating, and printing various types of elements.
+        /// </summary>
         public static void Main()
         {
             Console.WriteLine("Start LinkedList");
