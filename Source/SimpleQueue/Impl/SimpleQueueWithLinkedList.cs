@@ -1,10 +1,10 @@
-﻿namespace SimpleQueue;
+﻿namespace SimpleQueue.Impl;
 
 /// <summary>
 ///     Represents a simple first-in, first-out (FIFO) queue of elements of type T.
 /// </summary>
 /// <typeparam name="T">The type of elements in the queue.</typeparam>
-public sealed class SimpleQueue<T>
+public sealed class SimpleQueueWithLinkedList<T> : ISimpleQueue<T>
 {
     /// <summary>
     ///     Represents the underlying storage of the queue elements, implemented as a linked list of type <see cref="T" />.

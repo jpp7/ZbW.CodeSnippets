@@ -1,9 +1,9 @@
-﻿namespace SimpleQueue;
+﻿namespace SimpleHashTable.Impl;
 
 /// <summary>
 ///     Represents an individual with an identifier and a name.
 /// </summary>
-public sealed class Person
+public sealed class Person : IPerson
 {
     /// <summary>
     ///     Gets or sets the name of the person.
