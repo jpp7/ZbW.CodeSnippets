@@ -10,7 +10,7 @@ public class MyHashtable
 {
     private readonly LinkedList<Entry>[] _buckets;
 
-    private readonly int _size = 17; // Size of the hash table
+    private readonly int _size = 17; // Grösse vom hash table
 
     /// <summary>
     /// Die <c>MyHashtable</c>-Klasse implementiert eine einfache Datenstruktur, die Schlüssel-Wert-Paare speichert.
@@ -56,11 +56,13 @@ public class MyHashtable
         {
             if (entry.Key == key)
             {
+                // Aktualisiere den Wert, wenn der Schlüssel bereits existiert
                 entry.Value = value;
                 return;
             }
         }
 
+        // Fügt einen neuen Eintrag hinzu, wenn der Schlüssel nicht existiert
         _buckets[index].AddLast(new Entry(key, value));
     }
 
@@ -86,7 +88,7 @@ public class MyHashtable
             }
         }
 
-        return null; // Not found
+        return null; // Wurde nicht gefunden
     }
 
     /// <summary>
