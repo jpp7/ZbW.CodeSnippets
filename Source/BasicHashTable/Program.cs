@@ -1,14 +1,14 @@
 ﻿namespace BasicHashTable;
 
 /// <summary>
-/// Die Program-Klasse stellt den Einstiegspunkt der Anwendung dar.
-/// Diese Klasse enthält die Hauptlogik, die beim Start der Anwendung ausgeführt wird.
+///     Die Program-Klasse stellt den Einstiegspunkt der Anwendung dar.
+///     Diese Klasse enthält die Hauptlogik, die beim Start der Anwendung ausgeführt wird.
 /// </summary>
 internal class Program
 {
     /// <summary>
-    /// Der Einstiegspunkt der Anwendung.
-    /// Diese Methode wird beim Start des Programms aufgerufen und führt die Kernlogik aus.
+    ///     Der Einstiegspunkt der Anwendung.
+    ///     Diese Methode wird beim Start des Programms aufgerufen und führt die Kernlogik aus.
     /// </summary>
     private static void Main()
     {
