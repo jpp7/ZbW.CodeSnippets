@@ -49,7 +49,7 @@ public class MyHashtable
 
         if (_buckets[index] == null)
         {
-            _buckets[index] = new LinkedList<Entry>();
+            _buckets[index] = new LinkedList<Entry>(); // Erstelle eine neue LinkedList, wenn der Bucket leer ist
         }
 
         foreach (var entry in _buckets[index])
@@ -77,13 +77,13 @@ public class MyHashtable
         var index = GetBucketIndex(key);
 
         var bucket = _buckets[index];
-        if (bucket != null)
+        if (bucket != null) // Überprüfe, ob der Bucket existiert
         {
-            foreach (var entry in bucket)
+            foreach (var entry in bucket) // Durchlaufe die LinkedList im Bucket
             {
-                if (entry.Key == key)
+                if (entry.Key == key) // Überprüfe, ob der Schlüssel übereinstimmt, und gib den Wert zurück
                 {
-                    return entry.Value;
+                    return entry.Value; 
                 }
             }
         }
