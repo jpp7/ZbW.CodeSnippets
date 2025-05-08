@@ -57,7 +57,7 @@ public class HashTableOpen
         {
             if (occ)
             {
-                Insert(k, v);
+                Add(k, v);
             }
         }
     }
@@ -146,29 +146,34 @@ public class HashTableOpen
     /// <return>Die nächste Primzahl, die gleich oder grösser als die übergebene Zahl ist.</return>
     private static int PrimeNext(int n) // sehr simple Primzahlsuche
     {
-        bool IsPrime(int x)
-        {
-            if (x < 2)
-            {
-                return false;
-            }
-
-            for (int i = 2; i * i <= x; i++)
-            {
-                if (x % i == 0)
-                {
-                    return false;
-                }
-            }
-
-            return true;
-        }
-
         while (!IsPrime(n))
         {
             n++;
         }
 
         return n;
+    }
+
+    /// <summary>
+    /// Überprüft, ob die angegebene Zahl eine Primzahl ist.
+    /// </summary>
+    /// <param name="x">Die Zahl, die überprüft werden soll.</param>
+    /// <returns>True, wenn die Zahl eine Primzahl ist, andernfalls false.</returns>
+    private static bool IsPrime(int x)
+    {
+        if (x < 2)
+        {
+            return false;
+        }
+
+        for (int i = 2; i * i <= x; i++)
+        {
+            if (x % i == 0)
+            {
+                return false;
+            }
+        }
+
+        return true;
     }
 }
