@@ -85,8 +85,12 @@ public class HashTableDouble
         _table = new (int, string, bool)[PrimeNext(_table.Length * 2)];
         _count = 0;
         foreach (var (k, v, occ) in old)
+        {
             if (occ)
+            {
                 Insert(k, v);
+            }
+        }
     }
 
     /// <summary>
@@ -99,15 +103,24 @@ public class HashTableDouble
     /// <param name="value">Der Wert, der mit dem angegebenen Schlüssel verknüpft werden soll.</param>
     public void Add(int key, string value)
     {
-        if ((double)_count / _table.Length > LoadFactorMax) Resize();
+        if ((double)_count / _table.Length > LoadFactorMax)
+        {
+            Resize();
+        }
 
         int idx = Hash1(key);
         int step = Hash2(key);
 
         while (_table[idx].occupied && _table[idx].key != key)
+        {
             idx = (idx + step) % _table.Length; // zweiter Hash bestimmt den Sprung
+        }
 
-        if (!_table[idx].occupied) _count++;
+        if (!_table[idx].occupied)
+        {
+            _count++;
+        }
+
         _table[idx] = (key, value, true);
     }
 
@@ -126,7 +139,11 @@ public class HashTableDouble
 
         while (_table[idx].occupied)
         {
-            if (_table[idx].key == key) return _table[idx].value;
+            if (_table[idx].key == key)
+            {
+                return _table[idx].value;
+            }
+
             idx = (idx + step) % _table.Length;
         }
 
@@ -170,14 +187,27 @@ public class HashTableDouble
     {
         bool IsPrime(int x)
         {
-            if (x < 2) return false;
+            if (x < 2)
+            {
+                return false;
+            }
+
             for (int i = 2; i * i <= x; i++)
+            {
                 if (x % i == 0)
+                {
                     return false;
+                }
+            }
+
             return true;
         }
 
-        while (!IsPrime(n)) n++;
+        while (!IsPrime(n))
+        {
+            n++;
+        }
+
         return n;
     }
 }

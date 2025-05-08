@@ -35,7 +35,10 @@ public class HashTableChaining
     public HashTableChaining(int size = 17) // Primzahlgrösse
     {
         buckets = new List<(int, string)>[size];
-        for (int i = 0; i < size; i++) buckets[i] = new();
+        for (int i = 0; i < size; i++)
+        {
+            buckets[i] = new();
+        }
     }
 
     /// <summary>
@@ -60,11 +63,13 @@ public class HashTableChaining
     {
         var bucket = buckets[Hash(key)];
         for (int i = 0; i < bucket.Count; i++)
+        {
             if (bucket[i].key == key)
             {
                 bucket[i] = (key, value);
                 return;
             } // update
+        }
 
         bucket.Add((key, value)); // new
     }
@@ -79,8 +84,13 @@ public class HashTableChaining
     public string? Get(int key)
     {
         foreach (var (k, v) in buckets[Hash(key)])
+        {
             if (k == key)
+            {
                 return v;
+            }
+        }
+
         return null;
     }
 

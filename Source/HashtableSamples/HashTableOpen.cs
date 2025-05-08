@@ -54,8 +54,12 @@ public class HashTableOpen
         _table = new (int, string, bool)[PrimeNext(_table.Length * 2)];
         _count = 0;
         foreach (var (k, v, occ) in old)
+        {
             if (occ)
+            {
                 Insert(k, v);
+            }
+        }
     }
 
 
@@ -68,13 +72,22 @@ public class HashTableOpen
     /// <param name="value">Der mit dem Schlüssel verknüpfte Wert, der gespeichert werden soll.</param>
     public void Add(int key, string value)
     {
-        if ((double)_count / _table.Length > LoadFactorMax) Resize();
+        if ((double)_count / _table.Length > LoadFactorMax)
+        {
+            Resize();
+        }
 
         int idx = Hash(key);
         while (_table[idx].occupied && _table[idx].key != key)
+        {
             idx = (idx + 1) % _table.Length; // lineares Sondieren
+        }
 
-        if (!_table[idx].occupied) _count++;
+        if (!_table[idx].occupied)
+        {
+            _count++;
+        }
+
         _table[idx] = (key, value, true);
     }
 
@@ -89,7 +102,11 @@ public class HashTableOpen
         int idx = Hash(key);
         while (_table[idx].occupied)
         {
-            if (_table[idx].key == key) return _table[idx].value;
+            if (_table[idx].key == key)
+            {
+                return _table[idx].value;
+            }
+
             idx = (idx + 1) % _table.Length;
         }
 
@@ -131,14 +148,27 @@ public class HashTableOpen
     {
         bool IsPrime(int x)
         {
-            if (x < 2) return false;
+            if (x < 2)
+            {
+                return false;
+            }
+
             for (int i = 2; i * i <= x; i++)
+            {
                 if (x % i == 0)
+                {
                     return false;
+                }
+            }
+
             return true;
         }
 
-        while (!IsPrime(n)) n++;
+        while (!IsPrime(n))
+        {
+            n++;
+        }
+
         return n;
     }
 }
