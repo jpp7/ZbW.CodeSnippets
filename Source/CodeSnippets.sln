@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RingBufferQueueSample", "Ri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionBubbleSort", "ActionBubbleSort\ActionBubbleSort.csproj", "{34789F1C-EA4E-480A-A8FF-5A25E7919575}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BucketSortAlgorithmusSample", "BucketSortAlgorithmusSample\BucketSortAlgorithmusSample.csproj", "{C4FA0D6E-A81B-4476-A3E1-7E954CBCEA8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -64,5 +66,9 @@ Global
 		{34789F1C-EA4E-480A-A8FF-5A25E7919575}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34789F1C-EA4E-480A-A8FF-5A25E7919575}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34789F1C-EA4E-480A-A8FF-5A25E7919575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4FA0D6E-A81B-4476-A3E1-7E954CBCEA8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4FA0D6E-A81B-4476-A3E1-7E954CBCEA8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4FA0D6E-A81B-4476-A3E1-7E954CBCEA8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4FA0D6E-A81B-4476-A3E1-7E954CBCEA8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -22,7 +22,7 @@ public sealed class Program
             numbers,
             (i, j) => Console.WriteLine($"→ Schritt: Index {i} ({numbers[i]}) und {j} ({numbers[j]})")
         );
-        
+
         Console.WriteLine("Fertig sortiert: " + string.Join(", ", numbers));
         Console.WriteLine("Done!!!");
     }
@@ -52,10 +52,10 @@ public sealed class Program
                     // Bei jedem Tausch Bescheid sagen
                     step?.Invoke(j, j + 1);
 
-                    (a[j], a[j + 1]) = (a[j + 1], a[j]); // tuple swap
-                    // var temp = a[j];
-                    // a[j] = a[j + 1];
-                    // a[j + 1] = temp;
+                    // a[j], a[j + 1]) = (a[j + 1], a[j]); // tuple swap
+                    var temp = a[j];
+                    a[j] = a[j + 1];
+                    a[j + 1] = temp;
                 }
             }
         }
