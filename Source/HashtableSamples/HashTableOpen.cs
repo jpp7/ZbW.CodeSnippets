@@ -1,9 +1,23 @@
 namespace HashtableSamples;
 
 /// <summary>
-/// Repräsentiert eine Hash-Tabelle mit offenem Adressieren zur Handhabung von Kollisionen.
+/// Implementiert eine Hashtabelle mit offenem Adressieren zur Speicherung von Schlüssel-Wert-Paaren,
+/// wobei Schlüssel als Integer und Werte als Strings gespeichert werden.
 /// </summary>
-public class HashTableOpen
+/// <remarks>
+/// Hauptmerkmale dieser Implementierung:
+/// <list type="bullet">
+/// <item><description>Verwendet lineare Sondierung zur Kollisionsauflösung</description></item>
+/// <item><description>Implementiert eine Lazy-Deletion-Strategie für gelöschte Elemente</description></item>
+/// <item><description>Führt automatische Größenanpassung durch, wenn der Auslastungsfaktor 0,7 übersteigt</description></item>
+/// <item><description>Verwendet Primzahlen für die interne Array-Größe zur Minimierung von Clustering</description></item>
+/// <item><description>Bietet eine standardmäßige Anfangskapazität von 17 Elementen</description></item>
+/// <item><description>Erlaubt das Überschreiben existierender Schlüssel-Wert-Paare</description></item>
+/// <item><description>Verwendet eine modulare Hashfunktion mit vorzeichenloser Transformation</description></item>
+/// <item><description>Unterstützt grundlegende Operationen: Einfügen (Add), Abrufen (Get) und Löschen (Remove)</description></item>
+/// </list>
+/// </remarks>
+public sealed class HashTableOpen
 {
     /// <summary>
     /// Stellt das interne Array der Hash-Tabelle dar,

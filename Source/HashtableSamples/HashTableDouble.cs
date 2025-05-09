@@ -28,7 +28,7 @@ namespace HashtableSamples;
 /// Diese Implementierung ist nicht threadsicher. Im multithreaded Kontext
 /// müssen notwendige Synchronisationen extern implementiert werden.
 /// </threadsafety>
-public class HashTableDouble
+public sealed class HashTableDouble
 {
     /// <summary>
     /// Repräsentiert die interne Tabelle, die in der Hash-Tabellen-Implementierung verwendet wird.

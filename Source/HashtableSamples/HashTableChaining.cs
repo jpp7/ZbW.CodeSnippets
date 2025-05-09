@@ -10,7 +10,7 @@ namespace HashtableSamples;
 /// Standardmässig wird eine primzahlgrosse Array-Grösse für die Buckets verwendet, um die Effizienz
 /// der Hashtabelle zu maximieren.
 /// </remarks>
-public class HashTableChaining
+public sealed class HashTableChaining
 {
     /// <summary>
     /// Eine Sammlung von Buckets, die als interne Datenstruktur einer Hashtabelle mit Verkettung dient.
