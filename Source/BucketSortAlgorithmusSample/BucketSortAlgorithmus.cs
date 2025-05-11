@@ -30,7 +30,7 @@ public sealed class BucketSortAlgorithmus
         // Anzahl der Buckets berechnen (Wurzel der Array-Länge)
         var bucketCount = (int)Math.Sqrt(arrayToSort.Count);
 
-        // Größe der einzelnen Buckets berechnen
+        // Grösse der einzelnen Buckets berechnen
         var bucketSize = (max - min) / bucketCount + 1;
 
         // Array von Buckets erstellen und initialisieren
