@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BucketSortAlgorithmusSample
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashtableSamples", "HashtableSamples\HashtableSamples.csproj", "{CFF64F23-1FFC-40A2-B4B3-3A03FD4EC9C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTreeSample", "BinaryTreeSample\BinaryTreeSample.csproj", "{C72F82EC-54BB-4C3D-9B99-D3E45CFA22C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -76,5 +78,9 @@ Global
 		{CFF64F23-1FFC-40A2-B4B3-3A03FD4EC9C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFF64F23-1FFC-40A2-B4B3-3A03FD4EC9C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFF64F23-1FFC-40A2-B4B3-3A03FD4EC9C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C72F82EC-54BB-4C3D-9B99-D3E45CFA22C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C72F82EC-54BB-4C3D-9B99-D3E45CFA22C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C72F82EC-54BB-4C3D-9B99-D3E45CFA22C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C72F82EC-54BB-4C3D-9B99-D3E45CFA22C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
