@@ -1,44 +1,58 @@
-# 💡 CodeSnippets
+# 💡 CodeSnippets – Sammlung nützlicher C#-Beispiele
 
-Eine Sammlung von kleinen, übersichtlichen C#-Beispielen zu verschiedenen Themen wie Spracheigenschaften, Algorithmen, Design Patterns und mehr.
+Willkommen in der **CodeSnippets**-Bibliothek! Hier findest du prägnante, didaktisch aufbereitete Beispiele rund um Spracheigenschaften, klassische Datenstrukturen, Algorithmen und Design-Patterns in **C# /.NET 6+**.
+
+> 👉 Zielgruppe sind Studierende & Entwickler:innen, die Konzepte schnell 
+> anhand lauffähiger Mini-Projekte verstehen möchten.
 
 ---
 
 ## 📂 Projektübersicht
 
-| Ordner/Projekt                  | Inhalt                                        |
-|--------------------------------|------------------------------------------------|
-| `Algorithums`                  | Algorithums Beispiel                           |
-| `FibonacciExamples`            | Fibonacci Beispiel                             |
-| `LinkedList`                   | LinkedList Beispiel                            |
-| `SimpleHashTable`              | SimpleHashTable Beispiel                       |
-| `SimpleQueue`                  | SimpleQueue Beispiel                           |
-| `StackVsHeap`                  | Stack vs. Heap – Speicherverwaltung verstehen  |
-| `Yield`                        | Iteratoren mit `yield`                         |
-|                                |                                                |
-|                                |                                                |
+| Ordner / Projekt | Thema / Kurzbeschreibung |
+|------------------|--------------------------|
+| **ActionBubbleSort** | Bubble‑Sort‑Demo mit Action‑Callbacks (Schritt‑für‑Schritt‑Visualisierung) |
+| **Algorithmus** | Sammlung diverser Algorithmus‑Demos (Brute Force, Rekursion, etc.) |
+| **BasicHashTable** | Einfachste Hashtable‑Implementierung als Lehrbeispiel |
+| **BinarySearchSample** | Beispiel zur binären Suche in Arrays / Listen |
+| **BinaryTreeSample** | Binärer Suchbaum mit *Insert*, *Delete*, **Balance()**, *Clear()* & JSON‑Output |
+| **BucketSortAlgorithmusSample** | Bucket‑Sort‑Implementierung inkl. Performance‑Messung |
+| **FibonacciExamples** | Drei Varianten (iterativ, rekursiv, Memoization) inkl. Laufzeitvergleich |
+| **HashtableSamples** | Weitere Varianten von Hashtables – Open Addressing & Chaining |
+| **LinkedList** | Eigene doppelt verkettete Liste + Vergleich zu `LinkedList<T>` der BCL |
+| **RingBufferQueueSample** | Ringpuffer‑basierte Queue mit fixem Speicher |
+| **SimpleHashTable** | Minimaler Hash‑Tisch, Kollisions­lösung per Chaining |
+| **SimpleQueue** | Ringpuffer-basierte Warteschlange |
+| **StackVsHeap** | Demo zur Speicherverwaltung & Garbage‑Collection mittels *unsafe*-Code |
+| **Yield** | Iterator‑Pattern mit `yield return`, Lazy Evaluation |
+
+*(Weitere Ordner folgen – Pull Requests willkommen!)*
 
 ---
+## 🚀 Schnellstart
 
-## 🚀 Ausführen
+```bash
+# Repo klonen
+git clone https://github.com/zbw-pf/CodeSnippets.git
+cd CodeSnippets
 
-1. Öffne die Solution `CodeSnippets.sln` in [JetBrains Rider](https://www.jetbrains.com/rider/) oder [Visual Studio](https://visualstudio.microsoft.com/)
-2. Wähle eines der Projekte als Startprojekt
-3. Drücke `F5` oder `Strg+F5` zum Starten
+# Beispiel (BinaryTree) bauen & starten
+dotnet run --project BinaryTreeSample
+```
+
+> **Tipp:** In jedem Unterordner befindet sich eine `Program.cs`, die das jeweilige Feature demonstriert.
 
 ---
 
 ## 🛠 Voraussetzungen
 
-- [.NET SDK](https://dotnet.microsoft.com/) (mind. Version 6.0 empfohlen)
-- Rider oder Visual Studio
-- Git (zum Klonen)
+- **.NET SDK 6.0** oder höher  
+- Eine beliebige IDE (z.B. Rider, Visual Studio 2022)
 
 ---
 
-## 📦 Build & Run per CLI
+## 📜 Lizenz
 
-```bash
-dotnet build
-dotnet run --project StackVsHeap
-```
+Dieses Repository steht unter der MIT‑Lizenz – siehe **LICENSE**.
+
+---
