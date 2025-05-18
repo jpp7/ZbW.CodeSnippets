@@ -17,6 +17,25 @@ public class BinarySearchTree<T> where T : IComparable<T>
     private BinaryTreeNode<T>? _root;
 
     /// <summary>
+    ///     Baut den aktuellen Baum so um, dass er (nahezu) minimal balanciert ist.
+    ///     Laufzeit: O(n) –  erst In‑Order traversieren, dann rekursiv neu aufbauen.
+    ///     Speicher: O(n)  –  temporäre Liste mit allen Elementen.
+    /// </summary>
+    public void Balance()
+    {
+        if (_root is null)
+        {
+            return; // leerer Baum → nichts zu tun
+        }
+
+        // 1) Alle Elemente sortiert einsammeln (In‑Order liefert aufsteigend sortierte Reihenfolge im BST)
+        var data = BinaryTreeTraversal.InOrder(_root).ToList();
+
+        // 2) Rekursiv ausgewogen neu aufbauen
+        _root = BuildBalanced(data, 0, data.Count - 1);
+    }
+
+    /// <summary>
     ///     Fügt einen neuen Wert in den Binären Suchbaum ein.
     ///     Wenn der Wert bereits existiert, wird keine Änderung am Baum vorgenommen.
     /// </summary>
@@ -24,6 +43,27 @@ public class BinarySearchTree<T> where T : IComparable<T>
     public void Insert(T value)
     {
         _root = Insert(_root, value);
+    }
+
+    /// <summary>
+    ///     Rekonstruiert einen balancierten Baum aus einem sortierten Array‑Segment.
+    /// </summary>
+    private static BinaryTreeNode<T>? BuildBalanced(IReadOnlyList<T> arr, int lo, int hi)
+    {
+        if (lo > hi)
+        {
+            return null;
+        }
+
+        var mid = lo + (hi - lo) / 2;
+
+        var node = new BinaryTreeNode<T>(arr[mid])
+        {
+            Left = BuildBalanced(arr, lo, mid - 1),
+            Right = BuildBalanced(arr, mid + 1, hi)
+        };
+
+        return node;
     }
 
     /// <summary>
@@ -76,6 +116,7 @@ public class BinarySearchTree<T> where T : IComparable<T>
     {
         return Find(_root, value);
     }
+
 
     /// <summary>
     ///     Sucht nach einem Knoten im Binären Suchbaum, der den angegebenen Wert enthält.
@@ -204,6 +245,14 @@ public class BinarySearchTree<T> where T : IComparable<T>
     }
 
     /// <summary>
+    ///     Räumt den Baum komplett leer.
+    /// </summary>
+    public void Clear()
+    {
+        _root = null;
+    }
+
+    /// <summary>
     ///     Führt eine In-Order-Traversierung des Binären Suchbaums durch.
     ///     Die Traverse-Reihenfolge ist Links → Wurzel → Rechts.
     /// </summary>
@@ -232,5 +281,16 @@ public class BinarySearchTree<T> where T : IComparable<T>
     public IEnumerable<T> LevelOrder()
     {
         return BinaryTreeTraversal.LevelOrder(_root);
+    }
+
+    /// <summary>
+    ///     Gibt den Wert des Wurzelknotens des Binärbaums zurück.
+    /// </summary>
+    /// <returns>
+    ///     Der Wert des Wurzelknotens, falls vorhanden; andernfalls null.
+    /// </returns>
+    public BinaryTreeNode<T> GetRootValue()
+    {
+        return _root;
     }
 }
