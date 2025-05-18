@@ -24,10 +24,24 @@ public sealed class Program
         bst.Insert(60);
         bst.Insert(50);
         bst.Insert(70);
+        
+        // Nach den Insert-Operationen sieht der Baum so aus:
+        //
+        //           40
+        //          /  \
+        //        20    60
+        //       /  \   / \
+        //     10   30 50  70
 
+
+        // Links => Node => Rechts (sortiert aufsteigend)
         Console.WriteLine("In-Order  : " + string.Join(", ", bst.InOrder())); // 10 20 30 40 50 60 70
+        
+        // => Links => RechtS =>  Node
         Console.WriteLine("Post-Order: " + string.Join(", ", bst.PostOrder())); // 10 30 20 50 70 60 40
-        Console.WriteLine("Level-Order: " + string.Join(", ", bst.LevelOrder())); // 40 20 60 10 30 50 70
+        
+        // Node => Links => Rechts
+        Console.WriteLine("Pre-Order: " + string.Join(", ", bst.LevelOrder())); // 40 20 60 10 30 50 70
 
         bst.Delete(20); // Knoten mit zwei Kindern
         Console.WriteLine("Nach Delete(20): " + string.Join(", ", bst.InOrder())); // 10 30 40 50 60 70

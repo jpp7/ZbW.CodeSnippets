@@ -154,6 +154,21 @@ public class BinarySearchTree<T> where T : IComparable<T>
             var succ = Min(node.Right)!;
             node.Value = succ.Value;
             node.Right = Delete(node.Right, succ.Value);
+/*
+  1. `var succ = Min(node.Right)!;`
+    - Sucht den kleinsten Wert im rechten Teilbaum des zu löschenden Knotens
+    - Dieser Wert ist der "Nachfolger" (Successor) des zu löschenden Wertes
+    - Das `!` am Ende sagt dem Compiler, dass wir sicher sind, dass das Ergebnis nicht null sein wird
+
+2. `node.Value = succ.Value;`
+    - Kopiert den Wert des Nachfolgers in den aktuellen Knoten
+    - Dadurch wird der zu löschende Wert effektiv ersetzt
+
+3. `node.Right = Delete(node.Right, succ.Value);`
+    - Löscht den Nachfolgerknoten aus dem rechten Teilbaum
+    - Der neue rechte Teilbaum wird dann wieder mit dem aktuellen Knoten verbunden
+
+ */
         }
 
         return node;
