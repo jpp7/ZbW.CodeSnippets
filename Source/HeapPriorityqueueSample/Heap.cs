@@ -202,7 +202,8 @@ public sealed class Heap<T>
     ///     Vergrössert die interne Kapazität des Heaps, um zusätzlichen Speicherplatz für weitere Elemente bereitzustellen.
     /// </summary>
     /// <remarks>
-    ///     Diese Methode verdoppelt die aktuelle Grösse des internen Arrays, welches zur Speicherung der Elemente genutzt wird.
+    ///     Diese Methode verdoppelt die aktuelle Grösse des internen Arrays, welches zur Speicherung der Elemente genutzt
+    ///     wird.
     ///     Sie wird aufgerufen, wenn die Anzahl der Elemente (_size) die aktuelle Kapazität des Arrays (_array.Length)
     ///     erreicht.
     /// </remarks>
@@ -225,6 +226,10 @@ public sealed class Heap<T>
     /// </param>
     private void SwapElements(int firstIndex, int secondIndex)
     {
-        (_array[firstIndex], _array[secondIndex]) = (_array[secondIndex], _array[firstIndex]);
+        // (_array[firstIndex], _array[secondIndex]) = (_array[secondIndex], _array[firstIndex]);
+        
+        var temp = _array[firstIndex];
+        _array[firstIndex] = _array[secondIndex];
+        _array[secondIndex] = temp;
     }
 }
