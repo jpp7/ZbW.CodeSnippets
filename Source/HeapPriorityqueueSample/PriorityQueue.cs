@@ -113,14 +113,14 @@ public sealed class PriorityQueue<TElement, TPriority>
             var rightChildIndex = 2 * index + 2;
             var largestIndex = index;
 
-            // Prüfe ob linkes Kind grösser ist
-            if (IsValidIndexAndGreater(leftChildIndex, largestIndex))
+            // Prüfe, ob linkes höhere Priorität hat
+            if (IsHigherPriority(leftChildIndex, largestIndex))
             {
                 largestIndex = leftChildIndex;
             }
 
-            // Prüfe ob rechtes Kind grösser ist
-            if (IsValidIndexAndGreater(rightChildIndex, largestIndex))
+            // Prüfe, ob rechtes Kind höhere Priorität hat
+            if (IsHigherPriority(rightChildIndex, largestIndex))
             {
                 largestIndex = rightChildIndex;
             }
@@ -170,20 +170,13 @@ public sealed class PriorityQueue<TElement, TPriority>
     }
 
     /// <summary>
-    ///     Überprüft, ob ein bestimmter Index innerhalb der Grenzen des Heaps liegt
-    ///     und ob das Element an diesem Index grösser ist als ein anderes Element.
+    ///     Prüft, ob das Element an einem bestimmten Index in der Warteschlange eine höhere Priorität
+    ///     hat als das Element an einem anderen Index.
     /// </summary>
-    /// <param name="childIndex">
-    ///     Der Index des zu überprüfenden Elements im Heap.
-    /// </param>
-    /// <param name="compareIndex">
-    ///     Der Index des Elements, mit dem verglichen werden soll.
-    /// </param>
-    /// <returns>
-    ///     <c>true</c>, wenn der übergebene childIndex gültig ist und das Element grösser ist
-    ///     als das Element am compareIndex; andernfalls <c>false</c>.
-    /// </returns>
-    private bool IsValidIndexAndGreater(int childIndex, int compareIndex)
+    /// <param name="childIndex">Der Index des potenziellen "Kind"-Elements in der Warteschlange.</param>
+    /// <param name="compareIndex">Der Index des zu vergleichenden Elements in der Warteschlange.</param>
+    /// <returns>Gibt true zurück, wenn das Element am angegebenen "childIndex" eine höhere Priorität hat; andernfalls false.</returns>
+    private bool IsHigherPriority(int childIndex, int compareIndex)
     {
         return childIndex < Count && _comparer.Compare(_array[childIndex].Priority, _array[compareIndex].Priority) > 0;
     }
