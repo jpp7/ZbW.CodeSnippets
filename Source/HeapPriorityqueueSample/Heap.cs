@@ -120,14 +120,14 @@ public sealed class Heap<T>
             var rightChildIndex = 2 * index + 2;
             var largestIndex = index;
 
-            // Prüfe ob linkes Kind grösser ist
-            if (IsValidIndexAndGreater(leftChildIndex, largestIndex))
+            // Prüft, ob linkes Kind höhere Priorität hat
+            if (IsValidIndexAndHasPriority(leftChildIndex, largestIndex))
             {
                 largestIndex = leftChildIndex;
             }
 
-            // Prüfe ob rechtes Kind grösser ist
-            if (IsValidIndexAndGreater(rightChildIndex, largestIndex))
+            // Prüft, ob linkes Kind rechte Priorität hat
+            if (IsValidIndexAndHasPriority(rightChildIndex, largestIndex))
             {
                 largestIndex = rightChildIndex;
             }
@@ -178,21 +178,22 @@ public sealed class Heap<T>
         }
     }
 
+
     /// <summary>
-    ///     Überprüft, ob ein bestimmter Index innerhalb der Grenzen des Heaps liegt
-    ///     und ob das Element an diesem Index grösser ist als ein anderes Element.
+    ///     Überprüft, ob der angegebene Index gültig ist und ob das Element an diesem Index eine höhere Priorität hat
+    ///     als das Element am Vergleichsindex.
     /// </summary>
     /// <param name="childIndex">
-    ///     Der Index des zu überprüfenden Elements im Heap.
+    ///     Der Index des zu überprüfenden Kindknotens.
     /// </param>
     /// <param name="compareIndex">
-    ///     Der Index des Elements, mit dem verglichen werden soll.
+    ///     Der Index des Vergleichsknotens, mit dem das Element verglichen wird.
     /// </param>
     /// <returns>
-    ///     <c>true</c>, wenn der übergebene childIndex gültig ist und das Element grösser ist
-    ///     als das Element am compareIndex; andernfalls <c>false</c>.
+    ///     <c>true</c>, wenn der Kindindex innerhalb der gültigen Grenzen liegt und das Element am Kindindex
+    ///     eine höhere Priorität als das Element am Vergleichsindex hat; andernfalls <c>false</c>.
     /// </returns>
-    private bool IsValidIndexAndGreater(int childIndex, int compareIndex)
+    private bool IsValidIndexAndHasPriority(int childIndex, int compareIndex)
     {
         return childIndex < Count && _comparer.Compare(_array[childIndex], _array[compareIndex]) > 0;
     }
@@ -227,7 +228,7 @@ public sealed class Heap<T>
     private void SwapElements(int firstIndex, int secondIndex)
     {
         // (_array[firstIndex], _array[secondIndex]) = (_array[secondIndex], _array[firstIndex]);
-        
+
         var temp = _array[firstIndex];
         _array[firstIndex] = _array[secondIndex];
         _array[secondIndex] = temp;
