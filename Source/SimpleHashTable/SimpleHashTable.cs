@@ -54,7 +54,11 @@ public sealed class SimpleHashTable<TKey, TValue>
     /// <returns>The index of the bucket that corresponds to the specified key.</returns>
     private int GetBucketIndex(TKey key)
     {
-        return Math.Abs(key!.GetHashCode()) % _buckets.Length;
+        // `GetHashCode` kann `int.MinValue` zurückgeben, was bei `Math.Abs`
+        // aufgrund von Overflow negativ bleibt. Durch das Maskieren des
+        // Vorzeichenbits stellen wir sicher, dass der Index immer
+        // nicht-negativ ist.
+        return (key!.GetHashCode() & int.MaxValue) % _buckets.Length;
     }
 
     /// <summary>
