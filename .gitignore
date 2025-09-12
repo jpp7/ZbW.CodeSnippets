@@ -6,9 +6,14 @@ obj/
 out/
 output/
 
-## Rider / JetBrains
+# JetBrains Rider
 .idea/
-*.sln.iml
+!.idea/codeStyles
+!.idea/inspectionProfiles
+!.idea/runConfigurations
+
+# Rider/ReSharper
+*.sln.DotSettings.user
 
 ## Visual Studio-Dateien
 .vs/
